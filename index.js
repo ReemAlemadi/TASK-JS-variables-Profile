@@ -11,9 +11,12 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
+let fullName = "Reem Abdullah Alemadi";
+let yearOfBirth = 1996;
+let hobby = "Cooking";
+let funFact = "I dont have any fun fact";
+const image = "https://scontent.cdninstagram.com/v/t51.2885-19/327301833_145784764671084_8787229737389001289_n.jpg?stp=dst-jpg_s160x160&_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=4QHIKw3a34UAX-uz2ct&_nc_ht=scontent.cdninstagram.com&oh=00_AfAi0G2rNmdqlM9iJTfqoAGr1ZM9aFtl0UkZWHvPON05Gg&oe=6504B5CF";
+let year = 2023;
 
 
 /**
@@ -33,7 +36,9 @@
 // const yearOfBirthString =
 // const hobbyString =
 
-
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${year - yearOfBirth} years old`;
+const hobbyString = `My hobby is ${hobby}`;
 
 
 /**
@@ -45,14 +50,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars+=1
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars-=1
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars+=2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars-=2
 }
